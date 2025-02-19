@@ -19,3 +19,9 @@ Medical-Doc Extractor and Summarizer is a React-based application designed to he
 - **Redux (or Context API)** - Manages application state efficiently.
 - **Tailwind CSS** - Provides modern and responsive styling.
 
+## Images
+![image](https://github.com/user-attachments/assets/34fa5fb4-f5ce-4cb0-ad3c-5be5b994bc89)
+
+![image](https://github.com/user-attachments/assets/7e319852-72fa-4f4b-ba18-0a6d7ed46f35)
+
+![image](https://github.com/user-attachments/assets/9c98e7c1-4de0-4393-897b-3f6af50bdb45)
