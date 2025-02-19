@@ -1,0 +1,40 @@
+.textStyle {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  color: black;
+  border-bottom: 5px;
+  border-color: black;
+  border-width: 2px;
+}
+.spacecss {
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 28px;
+}
+.paraDiv {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1%;
+}
+.paraCss {
+  text-align: left;
+  width: 100% !important;
+  color: black;
+}
+.buttonSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  width: 100% !important;
+}

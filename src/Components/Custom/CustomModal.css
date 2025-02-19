@@ -1,0 +1,7 @@
+.modalcss .ant-form-item-extra {
+  color: black;
+}
+.modalcss .ant-form-item-required {
+  font-weight: bolder !important;
+  font-size: larger !important;
+}

@@ -1,0 +1,120 @@
+/* Auth Setup Styling */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf3 100%);
+  padding: 20px;
+}
+
+.logo-container {
+  margin-bottom: 2rem;
+}
+
+.auth-box {
+  background-color: rgb(219 219 219);  
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(84, 155, 254, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-box::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.auth-logo {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.auth-header {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.auth-content {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.auth-tabs .ant-tabs-tab {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+}
+
+.auth-tabs .ant-tabs-tab-active {
+  color: #1e3a8a !important;
+  background: white;
+}
+
+.auth-tabs .ant-tabs-tab:hover {
+  color: #3b82f6 !important;
+}
+
+.auth-tabs .ant-tabs-nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px 8px 0 0;
+  padding: 8px 8px 0;
+  margin-bottom: 0 !important;
+}
+
+.auth-tabs .ant-tabs-nav::before {
+  border: none !important;
+}
+
+.auth-tabs .ant-tabs-content-holder {
+  background: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.auth-footer {
+  margin-top: 2rem;
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+/* Add responsive tweaks */
+@media (max-width: 480px) {
+  .auth-box {
+    padding: 1.5rem;
+  }
+  
+  .auth-content {
+    padding: 1.5rem;
+  }
+  
+  .auth-header {
+    font-size: 1.5rem;
+  }
+}

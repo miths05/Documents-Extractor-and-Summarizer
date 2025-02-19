@@ -1,0 +1,55 @@
+.document-class {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  object-fit: contain;
+}
+.react-pdf__Page__annotations annotationLayer {
+  display: none !important;
+}
+.react-pdf__Page__textContent textLayer {
+  display: none !important;
+}
+.canvas_react-pdf {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.pdfButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.containerPdf {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textP {
+  margin: 0;
+  color: black;
+}
+.buttonPdf {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.buttonPdf:disabled,
+.buttonPdf[disabled] {
+  background-color: #4e4260;
+  color: white;
+  opacity: 0.7;
+}

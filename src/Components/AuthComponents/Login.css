@@ -1,0 +1,62 @@
+/* Login Page Styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 350px;
+  background: white;
+}
+
+.login-card {
+  background: white;
+  padding:2.5rem;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.login-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.input-field {
+  height: 40px;
+  border-radius: 8px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.forgot-password {
+  color: #1e3a8a;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1e3a8a;
+  border: none;
+}
+
+.login-button:hover {
+  background-color: #3b82f6;
+}
