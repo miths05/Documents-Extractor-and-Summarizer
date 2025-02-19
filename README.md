@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Medical-Doc Extractor and Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Medical-Doc Extractor and Summarizer is a React-based application designed to help users extract text from medical documents, track their completion progress, and generate concise summaries using OCR and NLP techniques. This tool simplifies document management by providing an interactive PDF viewer, progress tracking, and text formatting features.
 
-Currently, two official plugins are available:
+## Features
+- **OCR Integration**: Uses Tesseract.js to extract text from medical PDFs.
+- **Interactive PDF Viewer**: Enables users to view and navigate documents seamlessly.
+- **Completion Tracking**: Allows users to mark document progress and completion status.
+- **Text Summarization**: Utilizes NLP techniques to generate concise document summaries.
+- **Data Management**: Stores and organizes extracted text and completion records efficiently.
+- **Text Formatting Tools**: Provides basic text editing and formatting capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React.js** - Frontend framework for building UI components.
+- **TypeScript** - Ensures type safety and better development experience.
+- **Tesseract OCR** - Optical character recognition for extracting text from PDFs.
+- **NLP (Natural Language Processing)** - Used for summarizing extracted text.
+- **Redux (or Context API)** - Manages application state efficiently.
+- **Tailwind CSS** - Provides modern and responsive styling.
 
-## Expanding the ESLint configuration
+## Installation & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/medical-doc-extractor.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd medical-doc-extractor
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
